@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./list.component.scss']
 })
 export class ListComponent {
-
+  pokemonObject = {};
+  pokemon: any = [];
 }
+
+
+
+

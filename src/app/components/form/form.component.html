@@ -1,23 +1,81 @@
 <div class="container margin">
-    <form class="form-inline">
-        <label class="sr-only" for="inlineFormInputName2">Name</label>
-        <input type="text" class="form-control mb-2 mr-sm-2" id="inlineFormInputName2" placeholder="Jane Doe">
-
-        <label class="sr-only" for="inlineFormInputGroupUsername2">Username</label>
-        <div class="input-group mb-2 mr-sm-2">
-            <div class="input-group-prepend">
-                <div class="input-group-text">@</div>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Pesquise seu pokemon" aria-label="Search">
+                    <button class="btn btn-outline-dark" type="submit" (click)="onSearch()">Pesquisar</button>
+                </form>
             </div>
-            <input type="text" class="form-control" id="inlineFormInputGroupUsername2" placeholder="Username">
         </div>
-
-        <div class="form-check mb-2 mr-sm-2">
-            <input class="form-check-input" type="checkbox" id="inlineFormCheck">
-            <label class="form-check-label" for="inlineFormCheck">
-                Remember me
-            </label>
-        </div>
-
-        <button type="submit" class="btn btn-primary mb-2">Submit</button>
-    </form>
+    </nav>
+    <div class="margin">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">ID</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Growth Time</th>
+                    <th scope="col">Max Harvest</th>
+                    <th scope="col">Natural Gift Power</th>
+                    <th scope="col">Size</th>
+                    <th scope="col">Smoothness</th>
+                    <th scope="col">Max Harvest</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                    <td>@mdo</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                    <td>@fat</td>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                    <td>@mdo</td>
+    
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                    <td>@fat</td>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                    <td>@mdo</td>
+                </tr>
+                <tr>
+                    <th scope="row">4</th>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                    <td>@fat</td>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                    <td>@mdo</td>
+                </tr>
+                <tr>
+                    <th scope="row">5</th>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                    <td>@fat</td>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                    <td>@mdo</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 </div>
